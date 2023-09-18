@@ -91,7 +91,7 @@ validate_server_section() {
 		'cipher_mode:or("aes128cbc", "xor", "none"):aes128cbc' \
 		'auth_mode:or("md5", "crc32", "simple", "none"):md5' \
 		'fix_gro:bool:0' \
-		'sock_buf:range(10,10240):1024' \
+		'sock_buf:range(10,10240)' \
 		'auto_rule:bool:1' \
 		'keep_rule:bool:0' \
 		'seq_mode:range(0,4)' \
